@@ -1,0 +1,3 @@
+- Design thoughts: 
+	- I have an infinite stream coming in the format of 24 bytes payload + 1 byte checksum + 1 byte special char (will remove it later)
+	- I can have a window, align it with the checksum and then do the segmentation
